@@ -10,7 +10,7 @@ To gain a full understanding of the end-to-end data collection process, a small-
 
 **Data Collection**
 
-the phone was carried in the front right leg pocket, as the data was collected at a rate of 20Hz, which means that 20 data points are captured per second by each axis. The extracted csv files are then pre-processed by slicing them into overlapping time windows of size 30 so that for each activity between 300 and 500 observations are generated. For each axis in each observation the statistical measurements are calculated. However, they slightly differ from the research data frame as they contain quartiles, global maxima and minima.
+the phone was carried in the front right leg pocket, as the data was collected at a rate of 20Hz, which means that 20 data points are captured per second by each axis. The extracted csv files are then pre-processed by slicing them into overlapping time windows of size 30 so that for each activity between 300 and 500 observations are generated. For each axis in each observation the statistical measurements are calculated using the pandas function df.describe().
 
 
 **Mobile App for Accelerometer Data Capturing**
