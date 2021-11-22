@@ -20,4 +20,5 @@ https://apps.apple.com/us/app/accelerometer/id499629589
 **References**
 
 Kwapisz, J. R., Weiss, G. M., & Moore, S. A. (2010). Activity recognition using cell phone accelerometers. Proceedings of the Fourth International Workshop on Knowledge Discovery from Sensor Data, 10–18.
+
 Ravi, N., Dandekar, N., Mysore, P., & Littman, M. (2005). Activity Recognition from Accelerometer Data. 3, 1541–1546.
