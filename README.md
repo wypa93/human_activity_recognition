@@ -8,9 +8,13 @@ Through the introduction of smart phones in the early 2000s, the accelerometer h
 
 To gain a full understanding of the end-to-end data collection process, a small-scaled self-experiment is conducted, were the author replicated the experiment using the accelerometer of an iPhone 12 mini.The data that was captured reflects the motions when walking, running, sitting, standing, laying, stairs climbing and descending. The decision tree used for classifying the achieved a high accuracy of 99%, which however, may also be the result of including only one single test subject. Nevertheless, when looking at the feature importance, it was found that especially the 75% quartile of the accelerometers X- and Y-axis largely contribute to the classification accuracy.
 
-# Mobile App for Accelerometer Data Capturing
+**Data Collection**
+the phone was carried in the front right leg pocket, as the data was collected at a rate of 20Hz, which means that 20 data points are captured per second by each axis. The extracted csv files are then pre-processed by slicing them into overlapping time windows of size 30 so that for each activity between 300 and 500 observations are generated. For each axis in each observation the statistical measurements are calculated. However, they slightly differ from the research data frame as they contain quartiles, global maxima and minima.
+
+
+**Mobile App for Accelerometer Data Capturing**
 https://apps.apple.com/us/app/accelerometer/id499629589
 
-# References
+**References**
 Kwapisz, J. R., Weiss, G. M., & Moore, S. A. (2010). Activity recognition using cell phone accelerometers. Proceedings of the Fourth International Workshop on Knowledge Discovery from Sensor Data, 10–18.
 Ravi, N., Dandekar, N., Mysore, P., & Littman, M. (2005). Activity Recognition from Accelerometer Data. 3, 1541–1546.
